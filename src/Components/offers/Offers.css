@@ -1,0 +1,29 @@
+.offer-content{
+    width: 100%;
+}
+.offer-main{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+.offer-left p{
+    font-size: 50px;
+    font-weight: 700;
+}
+.checknow{
+    width: 130px;
+    height: 40px;
+    background-color: #ff4141;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

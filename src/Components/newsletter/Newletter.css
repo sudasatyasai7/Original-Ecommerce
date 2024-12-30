@@ -1,0 +1,42 @@
+.letter-content{
+    width: 100%;
+    margin-top: 40px;
+}
+.letter-main{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.letter-main h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.letter-subs{
+    width: 350px;
+    height: 35px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.letter-subs input{
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.letter-subs button{
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    width: 100px;
+}

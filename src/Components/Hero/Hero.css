@@ -1,0 +1,54 @@
+.hero-content{
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+}
+.hero-main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 500px;
+    align-items: center;
+    
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+}
+.special{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hai{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.hai p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hai img{
+    width: 50px;
+    height: 40px;
+}
+#sai{
+    font-size: 50px;
+    font-weight: 700;
+}
+.latest{
+    width: 170px;
+    height: 40px;
+    background-color: #ff4141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 10px;
+    padding:3px 10px;
+    margin-top: 20px;
+}
+.hero-right img{
+    height: 80vh;
+}

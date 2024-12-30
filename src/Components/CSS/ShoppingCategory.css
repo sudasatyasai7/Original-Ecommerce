@@ -1,0 +1,41 @@
+.shopping-category{
+    width: 100%;
+}
+.banner{
+    width: 90%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 20px;
+}
+.banner img{
+    width: 100%;
+}
+.sort{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort span{
+    color: gray;
+}
+.men-sort{
+    display: flex;
+    gap: 5px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.shop-category-types{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+
+}

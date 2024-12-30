@@ -1,0 +1,62 @@
+.display-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+.product-left{
+    display: flex;
+    gap: 10px;
+}
+.product-small{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.product-small img{
+    width: 100px;
+    height: 100px;
+}
+.product-right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.display-star{
+    display: flex;
+    gap: 5px;
+}
+.display-prices{
+    display: flex;
+    gap: 15px;
+}
+.display-sizes{
+    display: flex;
+    gap: 10px;
+    
+}
+.display-sizes div{
+    width: 35px;
+    height: 30px;
+    border: 1px solid rgb(189, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+#old{
+    text-decoration: line-through;
+}
+#pro-name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.display-cart{
+    width: 150px;
+    height: 30px;
+    background-color: #FF4141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

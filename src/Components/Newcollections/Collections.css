@@ -1,0 +1,37 @@
+.collections-content{
+    width: 100%;
+    margin-top: 50px;
+}
+.collection-main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.collections-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.collections-title p{
+    font-size: 40px;
+    font-weight: 500;
+}
+.collections-title hr{
+    height: 3px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+}
+.collections-image{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap: 20px;
+}

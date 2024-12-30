@@ -1,0 +1,36 @@
+.popular-content{
+    width: 100%;
+}
+.popular-main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.popular-title{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.popular-title p{
+    font-size: 40px;
+    font-family: 700;
+}
+.popular-title hr{
+    width: 100px;
+    display: flex;
+    height: 5px;
+    background-color: black;
+}
+.popular-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
